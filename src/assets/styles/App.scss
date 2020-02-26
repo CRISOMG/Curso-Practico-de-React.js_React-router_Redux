@@ -1,7 +1,12 @@
+@import "./Vars.scss";
+@import "./Media.scss";
+
 body {
   margin: 0;
-  background-color: rgb(0, 162, 255);
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
-  color: #1900ff;
+  font-family: $theme-font;
+  background: $main-color;
+}
+
+* {
+  box-sizing: border-box;
 }

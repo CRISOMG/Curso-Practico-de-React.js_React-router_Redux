@@ -12,3 +12,4 @@ $npm install webpack webpack-cli html-webpack-plugin html-loader -D
 $npm install webpack-dev-server -D
 $npm install -D mini-css-extract-plugin css-loader node-sass sass-loader
 $npm install --save-dev eslint babel-eslint eslint-config-airbnb eslint-plugin-import eslint-plugin-react eslint-plugin-jsx-a11y
+\$ npm install file-loader --save-dev
