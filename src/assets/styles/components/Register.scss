@@ -1,0 +1,75 @@
+.registerContainer {
+  color: white;
+  width: auto;
+  height: auto;
+  padding: 2em;
+  /* height: calc(100vh - 200px); */
+  background: linear-gradient(
+    to bottom,
+    rgb(33, 192, 139) 0%,
+    rgb(143, 87, 253) 100%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10x rgba(0, 0, 0, 0.22);
+}
+.register {
+  width: 40%;
+  height: 600px;
+  /* margin: 2em 0px; */
+  border: 2px solid white;
+  border-radius: 40px;
+  background-color: rgba(255, 255, 255, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.register h2 {
+}
+.register-form {
+  width: 80%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.register-form input {
+  width: 74%;
+  height: 40px;
+  margin-bottom: 30px;
+  font-size: 1em;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid white;
+  outline: none;
+}
+::placeholder {
+  color: white;
+  font-family: "Muli", sans-serif;
+  font-weight: 600;
+  padding: 0 8px;
+}
+.register-form button {
+  width: 80%;
+  height: 50px;
+  font-size: 1em;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.4);
+  border: none;
+  border-radius: 40px;
+  outline: none;
+  color: white;
+  cursor: pointer;
+}
+.register-logingLink {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.register-logingLink:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,132 @@
+.login {
+  width: auto;
+  height: auto;
+  background: linear-gradient(
+    to bottom,
+    rgb(33, 192, 139) 0%,
+    rgb(143, 87, 253) 100%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+}
+.login-container {
+  width: 40%;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 2px solid white;
+  border-radius: 40px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10x rgba(0, 0, 0, 0.22);
+}
+.login-title {
+  text-align: center;
+  color: white;
+  margin: 0px 0px 0px 0px;
+}
+.login-form {
+  width: 80%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.login-email {
+  width: 80%;
+  height: 40px;
+  margin-bottom: 2em;
+  font-size: 22px;
+  color: white;
+  background: transparent;
+  border: transparent;
+  border-bottom: 2px solid white;
+  outline: none;
+}
+.login-password {
+  width: 80%;
+  height: 40px;
+  margin-bottom: 2em;
+  font-size: 22px;
+  color: white;
+  background: transparent;
+  border: transparent;
+  border-bottom: 2px solid white;
+  outline: none;
+}
+::placeholder {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 10px;
+}
+.login-button {
+  width: 80%;
+  height: 50px;
+  margin: 0px 0px 0px 0px;
+  color: white;
+  font-size: 21px;
+  font-weight: bold;
+  background: rgba(255, 255, 255, 0.3);
+  border: none;
+  border-radius: 40px;
+  align-self: center;
+  cursor: pointer;
+}
+.login-remember {
+  width: 90%;
+  font-size: 16px;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  /* margin:  0px 0px 0px 0px; */
+}
+.login-remember label > input {
+  margin: 0;
+  padding: 0;
+  height: 13px;
+}
+.login-remember a {
+  color: white;
+  font-size: 14px;
+  text-decoration: none;
+}
+.login-remember a:hover {
+  text-decoration: underline;
+}
+.login-socialContainer {
+  display: flex;
+  flex-flow: column nowrap;
+  margin: 0px 0px 0px 0px;
+  color: white;
+  font-size: 18px;
+}
+.social-login_google {
+  display: flex;
+  align-items: center;
+  margin: 0em 0px 0px 0px;
+}
+.social-login_twitter {
+  display: flex;
+  align-items: center;
+  margin: 2em 0px 0px 0px;
+}
+.social-icon {
+  width: 40px;
+}
+.login-register {
+  margin: 0px 0px 0px 0px;
+  color: white;
+}
+.login-register_link {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+.login-register_link:hover {
+  text-decoration: underline;
+}

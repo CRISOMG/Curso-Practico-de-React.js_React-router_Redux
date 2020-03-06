@@ -6,6 +6,7 @@ En este curso utilizamos el concepto de Platzi Video para aprender React.js.
 
 **En el segundo modulo** creamos (sin crate-react-app) la configuracion del entorno e instalamos la dependecias para trabajar con React que vamos a utiliza para desarrollar Platzi Video.
 
+
 **Dependencias:**
 ````shell
 $ npm install react react-dom
@@ -20,3 +21,4 @@ $ npm install --save prop-types
 $ npm install redux react-redux --save. 
 $ npm install md5 --save
 ````
+

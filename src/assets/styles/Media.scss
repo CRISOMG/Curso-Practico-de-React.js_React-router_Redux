@@ -1,8 +1,10 @@
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 601px) {
   .main__description--title {
     font-size: 30px;
   }
-
+  .login-container {
+    width: 60%;
+  }
   .footer {
     align-items: flex-start;
     flex-direction: column;
