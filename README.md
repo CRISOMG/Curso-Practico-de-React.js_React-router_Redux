@@ -16,3 +16,4 @@ En el segundo modulo creamos (sin crate-react-app) la configuracion del entorno 
 \$sudo npm install json-server -g.
 \npm install --save prop-types.
 \npm install redux react-redux --save.
+\npm install md5 --save

@@ -9,7 +9,7 @@ import CarouselItem from "../components/CarouselItem";
 const Home = ({ mylist, trends, originals }) => {
   return (
     <React.Fragment>
-      <Search />
+      <Search isHome />
 
       {mylist.length > 0 && (
         <Categories title="Mi lista">

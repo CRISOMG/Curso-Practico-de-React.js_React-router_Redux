@@ -77,13 +77,18 @@
   cursor: pointer;
 }
 .login-remember {
-  width: 380px;
+  width: 90%;
   font-size: 16px;
   color: white;
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
   /* margin:  0px 0px 0px 0px; */
+}
+.login-remember label > input {
+  margin: 0;
+  padding: 0;
+  height: 13px;
 }
 .login-remember a {
   color: white;
