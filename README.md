@@ -17,4 +17,6 @@ $ npm install eslint babel-eslint eslint-config-airbnb eslint-plugin-import esli
 $ npm install file-loader --save-dev
 $ sudo npm install json-server -g
 $ npm install --save prop-types
+$ npm install redux react-redux --save. 
+$ npm install md5 --save
 ````
