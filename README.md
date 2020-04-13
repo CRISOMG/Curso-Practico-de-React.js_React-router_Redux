@@ -4,7 +4,7 @@ En este curso utilizamos el concepto de Platzi Video para aprender React.js.
 
 **En el primer modulo** vimos una introduccion a React con "crate-react-app" estudiando temas como JSX,DOM,Virtual DOM,React DOM;Ciclo de vida de Componentes Stateful,Stateles,Presentational;Objetos como Props y State.
 
-**En el segundo modulo** creamos (sin crate-react-app) la configuracion del entorno e instalamos la dependecias para trabajar con React que vamos a utiliza para desarrollar Platzi Video.
+**En el segundo modulo** creamos (sin crate-react-app) la configuracion del entorno e instalamos la dependecias para trabajar con React para desarrollar Platzi Video.
 
 
 **Dependencias:**
